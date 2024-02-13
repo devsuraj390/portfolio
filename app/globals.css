@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-info-container {
+  @apply bg-[#d0d0e1] p-[2px] text-center;
+}
+
+.contact-link {
+  @apply text-blue-600 text-[15px] hover:underline;
+}
+
+.company-left-border {
+  @apply border-l-[3px] border-stone-400 pl-2 rounded-sm;
+}
+
+.current-designation-top {
+  @apply text-sm lg:text-base opacity-70 -mt-1 tracking-tight;
+}
+
+.degree {
+  @apply text-xl lg:text-2xl font-bold lg:font-semibold;
+}
+
+.designation {
+  @apply text-sm lg:text-base font-semibold mr-2 opacity-80 leading-tight tracking-wide;
+}
+
+.location {
+  @apply text-sm lg:text-base opacity-70 justify-self-end;
+}
+
+.interest {
+  @apply text-sm lg:text-base tracking-wide border-[1px] rounded-md p-1 border-[#28a745];
+}
+
+.name {
+  @apply text-[32px] lg:text-[40px] font-sans tracking-tight text-[#00cca3];
+}
+
+.org-name {
+  @apply text-xl lg:text-2xl font-bold;
+}
+
+.section-title {
+  @apply uppercase text-[20px] lg:text-[28px] font-bold lg:font-semibold;
+}
+
+.skill {
+  @apply text-sm lg:text-base tracking-wide border-[1px] rounded-md p-1 border-slate-500 bg-slate-200;
+}
+
+.specialization {
+  @apply block text-sm lg:text-base font-semibold opacity-80 leading-tight tracking-wide
+}
+
+.tech-stack {
+  @apply font-bold opacity-80;
+}
+
+.timeline {
+  @apply text-sm lg:text-base opacity-70 tracking-tight justify-self-end;
+}
+
+.university {
+  @apply block text-sm lg:text-base tracking-wide;
+}
+
+.work-descriptions {
+  @apply text-sm lg:text-base list-[circle] lg:w-[85%] space-y-2 pl-6;
+}

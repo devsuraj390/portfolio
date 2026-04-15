@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suraj Kumar | Senior Frontend Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Suraj Kumar, Senior Frontend Engineer. View and download resume."
+    />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-block">
+        <a class="brand" href="#top">Suraj Kumar</a>
+        <p class="brand-title">Senior Frontend Engineer</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a class="nav-link active" href="#resume" aria-current="page">Resume</a>
+      </nav>
+
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Toggle color theme"
+        data-theme-toggle
+      >
+        <span class="theme-toggle-label" data-theme-label>Light mode</span>
+      </button>
+    </header>
+
+    <main class="page-shell" id="top">
+      <aside class="action-panel" aria-label="Resume actions">
+        <div class="action-group">
+          <a
+            class="button button-primary"
+            href="assets/Suraj_Kumar_Resume.pdf"
+            download
+          >
+            Download Resume
+          </a>
+          <a
+            class="button button-secondary"
+            href="assets/Suraj_Kumar_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open in New Tab
+          </a>
+        </div>
+      </aside>
+
+      <section class="resume-column" id="resume" aria-labelledby="resume-title">
+        <div class="section-heading">
+          <p class="section-label">Resume</p>
+          <h2 id="resume-title">Professional profile</h2>
+        </div>
+
+        <div class="resume-frame">
+          <img
+            class="resume-preview"
+            src="assets/resume-preview.png"
+            alt="Preview of Suraj Kumar's resume"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

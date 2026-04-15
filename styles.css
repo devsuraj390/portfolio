@@ -300,6 +300,10 @@ body[data-theme="light"] .button-primary {
     grid-template-columns: 1fr;
   }
 
+  .action-panel {
+    margin-top: 0.85rem;
+  }
+
   .action-group {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     width: min(100%, 460px);
